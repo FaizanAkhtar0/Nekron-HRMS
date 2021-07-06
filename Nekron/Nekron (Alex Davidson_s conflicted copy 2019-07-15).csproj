@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D7260443-E5EB-4880-B543-8A4903E94F2A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Nekron</RootNamespace>
+    <AssemblyName>Nekron</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu.Core, Version=1.8.0.1, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\Downloadssss\Compressed\Bunifu\Bunifu_UI_WinForms_1.8.0.1_Downloadly.ir\Bunifu UI WinForms 1.8.0.1\Bunifu UI WinForms 1.8.0.1\Bunifu.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForm.BunifuShadowPanel">
+      <HintPath>E:\Downloadssss\Compressed\Bunifu\Bunifu_UI_WinForms_1.8.0.1_Downloadly.ir\Bunifu UI WinForms 1.8.0.1\Bunifu UI WinForms 1.8.0.1\Bunifu.UI.WinForm.BunifuShadowPanel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuImageButton">
+      <HintPath>E:\Downloadssss\Compressed\Bunifu\Bunifu\Bunifu UI WinForms 1.8.0.1\Bunifu.UI.WinForms.BunifuImageButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuLabel">
+      <HintPath>D:\Bunifu\_Getintopc.com_Bunifu_UI_WinForms_1.8.0.1\Bunifu_UI_WinForms_1.8.0.1\Bunifu UI WinForms 1.8.0.1\Bunifu.UI.WinForms.BunifuLabel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuPictureBox">
+      <HintPath>E:\Downloadssss\Compressed\Bunifu\Bunifu\Bunifu UI WinForms 1.8.0.1\Bunifu.UI.WinForms.BunifuPictureBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuRadioButton">
+      <HintPath>E:\Downloadssss\Compressed\Bunifu\Bunifu\Bunifu UI WinForms 1.8.0.1\Bunifu.UI.WinForms.BunifuRadioButton.dll</HintPath>
+    </Reference>
+    <Reference Include="BunifuDataViz">
+      <HintPath>E:\Downloadssss\Compressed\Bunifu\Bunifu_DataViz_Advanced_v1.1.1.2_Downloadly.ir\Bunifu DataViz Advanced v1.1.1.2\Bunifu Dataviz Advanced 1.1.1.2\BunifuDataViz.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>D:\Bunifu\_Getintopc.com_Bunifu_UI_WinForms_1.8.0.1\Bunifu_UI_WinForms_1.8.0.1\Bunifu UI WinForms 1.8.0.1\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>..\..\..\Downloads\Compressed\Bunifu_UI_v1.52\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.QualityTools.Testing.Fakes, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AbscentPnl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AbscentPnl.Designer.cs">
+      <DependentUpon>AbscentPnl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddSections.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddSections.Designer.cs">
+      <DependentUpon>AddSections.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataBaseBackUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataBaseBackUp.Designer.cs">
+      <DependentUpon>DataBaseBackUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="respository\Feeinfo.cs" />
+    <Compile Include="respository\LogHandler.cs" />
+    <Compile Include="respository\Salaryinfo.cs" />
+    <Compile Include="UserRegistration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserRegistration.Designer.cs">
+      <DependentUpon>UserRegistration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FeeDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FeeDetails.Designer.cs">
+      <DependentUpon>FeeDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddNewSubject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddNewSubject.Designer.cs">
+      <DependentUpon>AddNewSubject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddSalary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddSalary.Designer.cs">
+      <DependentUpon>AddSalary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddStudentDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddStudentDetails.Designer.cs">
+      <DependentUpon>AddStudentDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddEmployeeTeacherDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddEmployeeTeacherDetails.Designer.cs">
+      <DependentUpon>AddEmployeeTeacherDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminControlPnl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminControlPnl.Designer.cs">
+      <DependentUpon>AdminControlPnl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard.Designer.cs">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddTestResults.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddTestResults.Designer.cs">
+      <DependentUpon>AddTestResults.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PayrollPnl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PayrollPnl.Designer.cs">
+      <DependentUpon>PayrollPnl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReportPnl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportPnl.Designer.cs">
+      <DependentUpon>ReportPnl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SchedulingPnl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SchedulingPnl.Designer.cs">
+      <DependentUpon>SchedulingPnl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SplashScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashScreen.Designer.cs">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AbscentPnl.resx">
+      <DependentUpon>AbscentPnl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddSections.resx">
+      <DependentUpon>AddSections.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataBaseBackUp.resx">
+      <DependentUpon>DataBaseBackUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserRegistration.resx">
+      <DependentUpon>UserRegistration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FeeDetails.resx">
+      <DependentUpon>FeeDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddNewSubject.resx">
+      <DependentUpon>AddNewSubject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddSalary.resx">
+      <DependentUpon>AddSalary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddStudentDetails.resx">
+      <DependentUpon>AddStudentDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddEmployeeTeacherDetails.resx">
+      <DependentUpon>AddEmployeeTeacherDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminControlPnl.resx">
+      <DependentUpon>AdminControlPnl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard.resx">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddTestResults.resx">
+      <DependentUpon>AddTestResults.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PayrollPnl.resx">
+      <DependentUpon>PayrollPnl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ReportPnl.resx">
+      <DependentUpon>ReportPnl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SchedulingPnl.resx">
+      <DependentUpon>SchedulingPnl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreen.resx">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-dragon-100.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

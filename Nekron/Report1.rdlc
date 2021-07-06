@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2008/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <Body>
+    <ReportItems>
+      <Tablix Name="Tablix1">
+        <TablixBody>
+          <TablixColumns>
+            <TablixColumn>
+              <Width>0.87028in</Width>
+            </TablixColumn>
+          </TablixColumns>
+          <TablixRows>
+            <TablixRow>
+              <Height>0.22396in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox25">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Parameters!Name.Value</Value>
+                              <Style />
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox25</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+            <TablixRow>
+              <Height>0.22396in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox41">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Parameters!Name.Value</Value>
+                              <Style />
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox41</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+          </TablixRows>
+        </TablixBody>
+        <TablixColumnHierarchy>
+          <TablixMembers>
+            <TablixMember />
+          </TablixMembers>
+        </TablixColumnHierarchy>
+        <TablixRowHierarchy>
+          <TablixMembers>
+            <TablixMember>
+              <KeepWithGroup>After</KeepWithGroup>
+            </TablixMember>
+            <TablixMember>
+              <Group Name="Details" />
+            </TablixMember>
+          </TablixMembers>
+        </TablixRowHierarchy>
+        <DataSetName>DataSet1</DataSetName>
+        <Top>0.14931in</Top>
+        <Left>0.29167in</Left>
+        <Height>0.44792in</Height>
+        <Width>0.87028in</Width>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+        </Style>
+      </Tablix>
+    </ReportItems>
+    <Height>2.5in</Height>
+    <Style />
+  </Body>
+  <Width>7.1875in</Width>
+  <Page>
+    <PageHeader>
+      <Height>1.11333in</Height>
+      <PrintOnFirstPage>true</PrintOnFirstPage>
+      <PrintOnLastPage>true</PrintOnLastPage>
+      <ReportItems>
+        <Image Name="Logo">
+          <Source>Embedded</Source>
+          <Value>icons8dragon50</Value>
+          <Sizing>FitProportional</Sizing>
+          <Top>0.32167in</Top>
+          <Left>5.405in</Left>
+          <Height>0.5in</Height>
+          <Width>0.5in</Width>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+          </Style>
+        </Image>
+        <Textbox Name="Textbox1">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>Student Information</Value>
+                  <Style>
+                    <FontFamily>times New Roman</FontFamily>
+                    <FontSize>14pt</FontSize>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style>
+                <TextAlign>Center</TextAlign>
+              </Style>
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>Textbox1</rd:DefaultName>
+          <Top>0.44667in</Top>
+          <Left>2.38417in</Left>
+          <Height>0.25in</Height>
+          <Width>1.66667in</Width>
+          <ZIndex>1</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+      </ReportItems>
+      <Style>
+        <Border>
+          <Style>None</Style>
+        </Border>
+      </Style>
+    </PageHeader>
+    <PageFooter>
+      <Height>1in</Height>
+      <PrintOnFirstPage>true</PrintOnFirstPage>
+      <PrintOnLastPage>true</PrintOnLastPage>
+      <ReportItems>
+        <Textbox Name="Textbox2">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>=Globals!PageNumber</Value>
+                  <Style />
+                </TextRun>
+              </TextRuns>
+              <Style />
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>Textbox2</rd:DefaultName>
+          <Top>0.32292in</Top>
+          <Left>4.70708in</Left>
+          <Height>0.25in</Height>
+          <Width>1in</Width>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+      </ReportItems>
+      <Style>
+        <Border>
+          <Style>None</Style>
+        </Border>
+      </Style>
+    </PageFooter>
+    <LeftMargin>1in</LeftMargin>
+    <RightMargin>1in</RightMargin>
+    <TopMargin>1in</TopMargin>
+    <BottomMargin>1in</BottomMargin>
+    <Style />
+  </Page>
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="DataSet1">
+      <ConnectionProperties>
+        <DataProvider>System.Data.DataSet</DataProvider>
+        <ConnectString>/* Local Connection */</ConnectString>
+      </ConnectionProperties>
+      <rd:DataSourceID>e960d175-48dc-4a7b-b77b-24eaf3daaeeb</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <DataSets>
+    <DataSet Name="DataSet1">
+      <Query>
+        <DataSourceName>DataSet1</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="S_ID">
+          <DataField>S_ID</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="USERNAME">
+          <DataField>USERNAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="FULL_NAME">
+          <DataField>FULL_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="EMAIL">
+          <DataField>EMAIL</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CONTACT_NO">
+          <DataField>CONTACT_NO</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="GENDER">
+          <DataField>GENDER</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="STATUS">
+          <DataField>STATUS</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="ADMISSION_DATE">
+          <DataField>ADMISSION_DATE</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="ADMISSION_NO">
+          <DataField>ADMISSION_NO</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="FATHER_NAME">
+          <DataField>FATHER_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="MOTHER_NAME">
+          <DataField>MOTHER_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="DATE_OF_BIRTH">
+          <DataField>DATE_OF_BIRTH</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="NATIONALITY">
+          <DataField>NATIONALITY</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="RELIGION">
+          <DataField>RELIGION</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CLASS_NAME">
+          <DataField>CLASS_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="SECTION_NAME">
+          <DataField>SECTION_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="S_ROLL_NO">
+          <DataField>S_ROLL_NO</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PASSWORD">
+          <DataField>PASSWORD</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="GUARDIAN_FULL_NAME">
+          <DataField>GUARDIAN_FULL_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="GUARDIAN_CONTACT_NO">
+          <DataField>GUARDIAN_CONTACT_NO</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="GUARDIAN_ADDRESS">
+          <DataField>GUARDIAN_ADDRESS</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PRE_SCHOOL">
+          <DataField>PRE_SCHOOL</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="PRIMARY_SCHOOL">
+          <DataField>PRIMARY_SCHOOL</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="MIDDLE">
+          <DataField>MIDDLE</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="MIDDLE_YEAROFPASS">
+          <DataField>MIDDLE_YEAROFPASS</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="MIDDLE_INSTITUTION">
+          <DataField>MIDDLE_INSTITUTION</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="HIGH_SCHOOL_SSC">
+          <DataField>HIGH_SCHOOL_SSC</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="SSC_YEAROFPASS">
+          <DataField>SSC_YEAROFPASS</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="SSC_INSTITUTION">
+          <DataField>SSC_INSTITUTION</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="HIGHER_SECONDARY_HSSC">
+          <DataField>HIGHER_SECONDARY_HSSC</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="HSSC_YEAROFPASS">
+          <DataField>HSSC_YEAROFPASS</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="HSSC_INSTITUTION">
+          <DataField>HSSC_INSTITUTION</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PRE_INSTITUTION">
+          <DataField>PRE_INSTITUTION</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PRIMARY_INSTITUTION">
+          <DataField>PRIMARY_INSTITUTION</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+      <rd:DataSetInfo>
+        <rd:DataSetName>DataSet2</rd:DataSetName>
+        <rd:SchemaPath>C:\Users\Osama\Dropbox\Project\Nekron\DataSet2.xsd</rd:SchemaPath>
+        <rd:TableName>STUDENTS</rd:TableName>
+        <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
+        <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
+        <rd:TableAdapterName>STUDENTSTableAdapter</rd:TableAdapterName>
+      </rd:DataSetInfo>
+    </DataSet>
+  </DataSets>
+  <ReportParameters>
+    <ReportParameter Name="Name">
+      <DataType>String</DataType>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="FatherName">
+      <DataType>String</DataType>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="ContactNo">
+      <DataType>String</DataType>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Religion">
+      <DataType>String</DataType>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="RollNo">
+      <DataType>String</DataType>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Nationality">
+      <DataType>String</DataType>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Address">
+      <DataType>String</DataType>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="AdmissionDate">
+      <DataType>DateTime</DataType>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+  </ReportParameters>
+  <EmbeddedImages>
+    <EmbeddedImage Name="icons8dragon50">
+      <MIMEType>image/png</MIMEType>
+      <ImageData>iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMAAAAp4XiDAAACoFBMVEVHcEw5juM0mNs7ndg0l9s0mNs0mNs0mNskkts0mds0ltgzmcwxlN5Vqv8AgP81mNs0mNs2lNc0mNsxnts1mNs0mNs0mNs0mNs0mNs5nNU0mdpAgL80mNs0mNs0mdw3m940l9suotE0mNsA//80mNsrldU0mNs1mNs0l9wzmNo0mNs0mNs0mNs0mNs0mNsul9w0mNs3mNtAn980mNs5l9k0mds0mNo0mdszmdo1mds1l9ozmd0zmNsyl9o1mNs0mNs0l9o1mNs1mNs2mNs1mNw1l9ozmdo0l9wrqtUzmdwzmds0mNs0mNs0mNo0mds0mNs0mNs0mNs1mNozmeY1ldw0mNown984l9c0l9szmNs1mNw1mNs0mNszmNs0mNs0mNs0mNs3mN00mNszmNw1mNwylt4xk9g0l9szmds0l9s0mdw0l9s0mNs1ld81mNo0l9szmNw2m9g0mNw0mNozmdk1mts1mNo0lts0mN00mNstluE3m9s0mNs0mNs1l9szmNszmdo0mNwzmd00mNs2mt00mNszmdw1mdwzmd01l9s0mNs0mNs1l9s0mds0l9w0mNs0mNs0mds1mtszmNs2mNk1mNs0mds0mNo0l9w0mNw0mNs0mNszmNs1mtozmNszmds1mNw1l9s1mt01l9w0mtwzmd00l9s0l9wzmNszmNs0mdo1l9sylts0mds0l9wzmds1mNs0mNs0mNw0mds1mtozmdozmds0mNo0mNszmdw1l9s0mds1mtw0mNs1mN0zmdw0mNw1mNs0mdszmNsyldozmdY0mNs0mNszmNo0mNw0mNs0mdsyldw0mdozmNw3kts0mNw0mNs1l9w0mds1l9w0mNs1mNszmNwyl9s0mNszmNozmds0l9o0mNsyl9w0mNv1UUDJAAAA33RSTlMACfsN5fX0/gfWJwUfAwLu6xP5Fcf9/OL4
+EtEE+s+YF+oLowHJDI9qu67zzvfGzRbBKgjtG9uSk1rMYC3aTHm5dk29OYOgN2wGUGTv08Nr9sjEUgodWRAgQHfCqt3QY/GhJejfdC4awCOFiWKvGGFxbSHmtSg/b05K7BEc496lhkuKHvAmy19mD4y+1JusO6uUoivVL7jgRSzY156aRIEyV1Y1ZUk8XViV5HVbOLF7Vem6Xo4wfUa8qHOHnTqwQ0GmfnCpKRnhsnyXv3okp5AOrU+Rf4LnXJ9H3Gh4yvJChAmY9QAAA99JREFUSMfVVWV7VEcUnk129+5ubN2ihBAPhAhxI0qTECMhnpBQKFLc3d21UIV6qSAVnBZaqLfU/f0rnZl770p3s1u+9Hl6v9xzzsw7x945Q8h/+z2z9JEhL6avin5EyPhkNA2G/qutqVWytMoOa2xB1bigkDWWiuclccdRIwBjxYWcIJgX1Eia/XIHl01LkigIUUcmB8Y8PpHuCmmdd0fDtBU1G6hq+WpWQEzkuSx2NlR97Q1UDSvWUsX+UZDoJs9XctTI5jyqRfTYsSkvaBkiXkqzMlBmwRyqlawkdZ9nLutbEQS19Gs7A6Vfoz398jMLk/VPBHO1o5SH12+j1Y6Zb8i7hKmBAYeGt0P+1n6oY0W/iMcCIY7RCpTGfdHCEBMl2zvILAuEMSkRTshiihBWy7Z5CKnRjAWYVbi7jYXhADZ2us3lVjj91mDC9FiewiCVQzu8luq0yPdD1W/2Ay2tqVlp2/wcNy4D9X7Mk/ZBdYg62JzW6yzqneS9uAgf+Iss7Gc00tz3bBlWAbe912ZC6QuY8em+H4EfuPzJYb1BMnenrV12mSaKdB8P12PoHdlvuyHprqLuUgPW90kX7B97I9ZNBZpOR0rw4qzVHt6/NyfsJNEPcH+9F+TJBQsF4xZRru4HtD5xK9rQtI7+ddWyZf2iViTw4dIZMpShXe6bq+M4mhWEvDdFVKO3hrAmLmGn1ZyIdO/TFB/oO/r7U2KE
+NtyKiG+cK64kArFXynsKfVqVwfkgHO7i1zYXm5xyzO8mMDK6Wp2aIc2/eC2Od/42rIbTxNSbtF84KWW/XXDTJIJW71m5g7lCN2WrEQPxTK2i8deOZ1KDFgvdTmYnVOpcyiDORJMj/SMY5QktEIBEvvA66tyQpx2eE+QsiukvLxNqnmnXwyj8xIRavOExzL0qUIhf4wgpyC8CCho4HZDNfq+iecxBVYpYXu6NQOoEKhigZ3pOLkr+sTVnrz736kwqpGCAuiFT8r/dgCRK1j0Y4huSpaTcA3c5n+VrCOnQi26Ixgxkh5F6MTAyR2057wWZDn217iCMvxDSg1KD6OeeE5XtMZgmbnkOSWEeiNBGvpCM9BKiOAu1OKA0WaCN+U6eFTa85gFZDE6lyIMYjScnhmA2MTbGKW1Q3XVVdKXVcygWSd4VZphzyF9/IuYMJ2t3sgexaGUsKbIcLqgUEstGcVJBSv6Av7tPKgUkOuTk33K9OiMoOu0w9eKUv669okZUOR9GB7DbZdWdEod6it9O69ro+1Dxdhl9Od903zIzBFVUc/tY9CjLFsQzDS7T1p17jwV+YMLraweULSD/z+9vDa1lj4zBuBkAAAAASUVORK5CYII=</ImageData>
+    </EmbeddedImage>
+  </EmbeddedImages>
+  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+  <rd:ReportID>d1fe5e42-5047-431c-b313-d2a04cb27f32</rd:ReportID>
+</Report>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConnectionString (Settings)" PropertyReference="ApplicationSettings.Nekron.Properties.Settings.GlobalReference.Default.ConnectionString" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="STUDENTSTableAdapter" GeneratorDataComponentClassName="STUDENTSTableAdapter" Name="STUDENTS" UserDataComponentName="STUDENTSTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ConnectionString (Settings)" DbObjectName="TEST.STUDENTS" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT "S_ID", "USERNAME", "FULL_NAME", "EMAIL", "CONTACT_NO", "GENDER", "STATUS", "ADMISSION_DATE", "ADMISSION_NO", "FATHER_NAME", "MOTHER_NAME", "DATE_OF_BIRTH", "NATIONALITY", "RELIGION", "CLASS_NAME", "SECTION_NAME", "S_ROLL_NO", "PASSWORD", "GUARDIAN_FULL_NAME", "GUARDIAN_CONTACT_NO", "GUARDIAN_ADDRESS", "PRE_SCHOOL", "PRIMARY_SCHOOL", "MIDDLE", "MIDDLE_YEAROFPASS", "MIDDLE_INSTITUTION", "HIGH_SCHOOL_SSC", "SSC_YEAROFPASS", "SSC_INSTITUTION", "HIGHER_SECONDARY_HSSC", "HSSC_YEAROFPASS", "HSSC_INSTITUTION", "IMAGE", "PRE_INSTITUTION", "PRIMARY_INSTITUTION" FROM "TEST"."STUDENTS"</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="STUDENTS" msprop:Generator_TableClassName="STUDENTSDataTable" msprop:Generator_TableVarName="tableSTUDENTS" msprop:Generator_TablePropName="STUDENTS" msprop:Generator_RowDeletingName="STUDENTSRowDeleting" msprop:Generator_RowChangingName="STUDENTSRowChanging" msprop:Generator_RowEvHandlerName="STUDENTSRowChangeEventHandler" msprop:Generator_RowDeletedName="STUDENTSRowDeleted" msprop:Generator_UserTableName="STUDENTS" msprop:Generator_RowChangedName="STUDENTSRowChanged" msprop:Generator_RowEvArgName="STUDENTSRowChangeEvent" msprop:Generator_RowClassName="STUDENTSRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
